@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'docker-agent-python'
+            label 'docker-agent-alpine'
             }
       }
 // This will pull from the configured repository every 5 minutes
